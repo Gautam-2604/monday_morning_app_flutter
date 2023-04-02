@@ -68,10 +68,17 @@ class _Home2State extends State<Home2> {
                   radius: 20,
 
                 ),
+                title: Text(
+                  'Team MM',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
 
               ),
             ),
           ),
+
           GestureDetector(
             onTap: (){
               Navigator.pushReplacementNamed(context, '/message1');
@@ -82,6 +89,12 @@ class _Home2State extends State<Home2> {
                   backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW4c2xIjLCmBhApRlJq0oJgBD1NcMzEEigkvMFCg2L&s'),
                   radius: 20,
 
+                ),
+                title: Text(
+                  'Team MM',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
 
               ),
@@ -94,9 +107,15 @@ class _Home2State extends State<Home2> {
             child: Card(
               child: ListTile(
                 leading: CircleAvatar(
-                  backgroundImage: NetworkImage('https://www.unwomen.org/sites/default/files/2022-10/UN-Women-Goodwill-Ambassador-Emma-Watson-Credit-Celeste-Sloman-853x1280.jpg'),
+                  backgroundColor: Colors.white,
                   radius: 20,
 
+                ),
+                title: Text(
+                  'Emma Watson',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
 
               ),
@@ -113,6 +132,12 @@ class _Home2State extends State<Home2> {
                   radius: 20,
 
                 ),
+                title: Text(
+                  'Team MM',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
 
               ),
             ),
@@ -129,20 +154,11 @@ class _Home2State extends State<Home2> {
                   radius: 20,
 
                 ),
-
-              ),
-            ),
-          ),
-          GestureDetector(
-            onTap: (){
-              Navigator.pushReplacementNamed(context, '/message1');
-            },
-            child: Card(
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW4c2xIjLCmBhApRlJq0oJgBD1NcMzEEigkvMFCg2L&s'),
-                  radius: 20,
-
+                title: Text(
+                  'Team MM',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
 
               ),
@@ -158,6 +174,33 @@ class _Home2State extends State<Home2> {
                   backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW4c2xIjLCmBhApRlJq0oJgBD1NcMzEEigkvMFCg2L&s'),
                   radius: 20,
 
+                ),
+                title: Text(
+                  'Team MM',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+
+              ),
+            ),
+          ),
+          GestureDetector(
+            onTap: (){
+              Navigator.pushReplacementNamed(context, '/message1');
+            },
+            child: Card(
+              child: ListTile(
+                leading: CircleAvatar(
+                  backgroundImage: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW4c2xIjLCmBhApRlJq0oJgBD1NcMzEEigkvMFCg2L&s'),
+                  radius: 20,
+
+                ),
+                title: Text(
+                  'Team MM',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
 
               ),
